@@ -171,25 +171,45 @@
 							</article>
 
 						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">Contact</h2>
-								<form method="post" action="enquiry.php">
-									<div class="fields">
-										<div class="field half">
-											<p> <strong> You can drop your query with us thorugh social media or email buttons given below to get your answers or you can simply contact us through our live chat support <strong/> <p/>  
+						<article id="contact">
+							<h2 class="major">Contact</h2>
+							<form method="get" action="https://instantaneous-hicko.000webhostapp.com/contact.php">
+								<div class="fields">
+									<div class="field half">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" required/>
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" />
+									</div>
 									
-								<ul class="icons">
-									<li><a title="For any query, you can contact us through this number " href = "tel: +918267860941" class="fas fa-phone-volume"></a></li>
-									<li><a title="Mail us through the given email ID for any query" href = "mailto: tejashverma32@gmail.com" class="icon fa-envelope"><span class="label">Gmail</span></a></li>
+								
+									<div class="field half">
+										<label for="phone">Phone</label>
+										<input type="text" name="mobile" id="phone" minlength="10" maxlength="15" required/>
+									</div>
 									
-									
-									<li><a title="Here is the link for my Facebook profile for any query" href="https://www.facebook.com/Cre-artist-354337489004509/?tn-str=k*F" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a title="I can also be reached through this Instagram account" href="https://instagram.com/cre_artist_?igshid=yoo4oiqyyitl" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a title="Here is the link of my portfolio for reference purpose only" href="https://drive.google.com/folderview?id=11Yn_148dHRwMSJVY9dU870oJuYpsgtJt" class="icon brands fa-google-drive"><span class="label">Drive</span></a></li>
-									
-									
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4" ></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" class="primary" /></li>
+									<li><input type="reset" value="Reset" /></li>
 								</ul>
-							</article>
+							</form>
+							<ul class="icons">
+								<li><a title="For any query, you can contact us through this number " href = "tel: +918267860941" class="fas fa-phone-volume"></a></li>
+								<li><a title="Mail us through the given email ID for any query" href = "mailto: tejashverma32@gmail.com" class="icon fa-envelope"><span class="label">Gmail</span></a></li>
+								<li><a title="Here is the link for my Facebook profile for any query" href="https://www.facebook.com/Cre-artist-354337489004509/?tn-str=k*F" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a title="I can also be reached through this Instagram account" href="https://instagram.com/cre_artist_?igshid=yoo4oiqyyitl" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a title="Here is the link of my portfolio for reference purpose only" href="https://drive.google.com/folderview?id=11Yn_148dHRwMSJVY9dU870oJuYpsgtJt" class="icon brands fa-google-drive"><span class="label">Drive</span></a></li>
+								
+								
+							</ul>
+		</article>
 
 						<!-- Elements -->
 							<article id="elements">
